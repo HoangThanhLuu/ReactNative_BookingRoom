@@ -13,6 +13,8 @@ import { NavigationContainer } from "@react-navigation/native";
 import { Ionicons } from '@expo/vector-icons';
 import SearchScreen from "./screens/SearchScreen";
 import PlaceScreen from "./screens/PlaceScreen";
+import MapScreen from "./screens/MapScreen";
+import PropertyInfoScreen from "./screens/PropertyInfoScreen";
 
 const StackNavigator = () => {
   const bottom = createBottomTabNavigator();
@@ -93,6 +95,8 @@ const StackNavigator = () => {
         <Stack.Screen name="MyTabs" component={MyTabs} options={{headerShown:false}} />
         <Stack.Screen name="SearchScreen" component={SearchScreen} options={{headerShown:false}} />
         <Stack.Screen name="PlaceScreen" component={PlaceScreen} options={{headerShown:false}} />
+        <Stack.Screen name="MapScreen" component={MapScreen} options={{headerShown:false}}/>
+        <Stack.Screen name="PropertyInfoScreen" component={PropertyInfoScreen} options={{headerShown:false}}/>
       </Stack.Navigator>
     </NavigationContainer>
   );
