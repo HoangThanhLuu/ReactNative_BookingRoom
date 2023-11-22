@@ -77,6 +77,7 @@ const HomeScreen = () => {
 
           )
       }
+      //người dùng nhập lại dữ liệu
       if(route.params && selectedDates){
         navigation.navigate('PlaceScreen',
         {
@@ -165,6 +166,7 @@ const HomeScreen = () => {
                 />
                 <TextInput
                   placeholderTextColor="black"
+                  //input này nằm bên SearchScreen
                   placeholder={route?.params ? route.params.input : "Chọn điểm đến"}// route?.params route có tồn tại hay không rồi mới tới params và input
                 ></TextInput>
               </Pressable>

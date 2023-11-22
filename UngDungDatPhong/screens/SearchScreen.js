@@ -26,9 +26,8 @@ const SearchScreen = () => {
             image:
               "https://cf.bstatic.com/xdata/images/hotel/max1280x900/433845616.jpg?k=87bc315f35830189d9a1c935c3e167e648543c27f39ee4cafc5cf73ee24393b9&o=&hp=1",
             rating: 3.6,
-            address:
-              "Hồ Chí Minh, Việt Nam",
-              //giá phòng (củ)
+            address: "Hồ Chí Minh, Việt Nam",
+            //giá phòng (củ)
             oldPrice: 4600,
             //giá mới (mới)
             newPrice: 3312,
@@ -118,8 +117,7 @@ const SearchScreen = () => {
               "https://cf.bstatic.com/xdata/images/hotel/max1280x900/223496641.jpg?k=070266558a879c2926e5511569c4828a007a3e1057b63ccfa30120c859341d1d&o=&hp=1",
             name: "Saigon Princess Dinner ",
             rating: 4,
-            address:
-              "Thảo Điền,Quận 2, Thành phố Hồ Chí Minh, Việt Nam",
+            address: "Thảo Điền,Quận 2, Thành phố Hồ Chí Minh, Việt Nam",
             oldPrice: 4201,
             newPrice: 3327,
             latitude: "10.805137578871877",
@@ -179,7 +177,7 @@ const SearchScreen = () => {
             rooms: [
               {
                 id: "202",
-                name: "King Room with Balcony",
+                name: "Phòng có giường và có ban công",
                 size: 419,
                 refundable: "refundable",
                 payment: "Pay at the property",
@@ -187,7 +185,7 @@ const SearchScreen = () => {
               },
               {
                 id: "203",
-                name: "Deluxe king Room",
+                name: "Phòng có giường và không ban công",
                 size: 440,
                 refundable: "non refundable",
                 payment: "Pay in advance",
@@ -195,7 +193,7 @@ const SearchScreen = () => {
               },
               {
                 id: "205",
-                name: "Deluxe king Room",
+                name: "Phòng có giường và có bồn tắm",
                 size: 490,
                 refundable: "refundable",
                 payment: "Pay at the property",
@@ -207,8 +205,8 @@ const SearchScreen = () => {
             id: "12",
             name: "Victory Hotel SaiGon",
             rating: 4.2,
-            address:"Phường 28,Bình Thạnh, Thành phố Hồ Chí Minh, Việt Nam",
-              
+            address: "Phường 28,Bình Thạnh, Thành phố Hồ Chí Minh, Việt Nam",
+  
             oldPrice: 3800,
             newPrice: 3078,
             latitude: "10.799573136816527",
@@ -303,12 +301,11 @@ const SearchScreen = () => {
             id: "20",
             name: "Hotel de l'Opera Hanoi",
             image:
-            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/244258924.jpg?k=1f98c00674333999f29ce3b095eece29069f8304bf7697467a405b417132ee5f&o=&hp=1",
+              "https://cf.bstatic.com/xdata/images/hotel/max1280x900/244258924.jpg?k=1f98c00674333999f29ce3b095eece29069f8304bf7697467a405b417132ee5f&o=&hp=1",
             rating: 3.5,
-            address:
-              "Đai Mễ,Nam Từ Liêm, Hà Nội, Việt Nam",
-            oldPrice:4837,
-            newPrice:3030,
+            address: "Đai Mễ,Nam Từ Liêm, Hà Nội, Việt Nam",
+            oldPrice: 4837,
+            newPrice: 3030,
             latitude: "20.984761600105127",
             longitude: "105.76781630366665",
             photos: [
@@ -394,11 +391,10 @@ const SearchScreen = () => {
             id: "22",
             name: "Lam Anh Hotel 5 Him Lam Vạn Phúc",
             image:
-            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/433845616.jpg?k=87bc315f35830189d9a1c935c3e167e648543c27f39ee4cafc5cf73ee24393b9&o=&hp=1",
+              "https://cf.bstatic.com/xdata/images/hotel/max1280x900/433845616.jpg?k=87bc315f35830189d9a1c935c3e167e648543c27f39ee4cafc5cf73ee24393b9&o=&hp=1",
             rating: 4.5,
-            address:
-              "Hoàng Văn Thụ,Chương Mỹ, Hà Nội, Việt Nam",
-            oldPrice: 8030, 
+            address: "Hoàng Văn Thụ,Chương Mỹ, Hà Nội, Việt Nam",
+            oldPrice: 8030,
             newPrice: 6038,
             latitude: "20.993595619514977",
             longitude: "105.75938929660713",
@@ -495,12 +491,11 @@ const SearchScreen = () => {
             id: "20",
             name: "GOLD BOUTIQUE HOTEL",
             image:
-            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/424814179.jpg?k=12c76ec416673fc09ae8085250cebd14928b35671e9d72f782da4256c394f610&o=&hp=1",
-           
+              "https://cf.bstatic.com/xdata/images/hotel/max1280x900/424814179.jpg?k=12c76ec416673fc09ae8085250cebd14928b35671e9d72f782da4256c394f610&o=&hp=1",
+  
             rating: 3.5,
-            address:
-              "Vịnh Đà Nẵng,Việt Nam",
-            oldPrice: "16.077186901712288", 
+            address: "Vịnh Đà Nẵng,Việt Nam",
+            oldPrice: "16.077186901712288",
             newPrice: "108.1825339778813",
             photos: [
               {
@@ -585,10 +580,9 @@ const SearchScreen = () => {
             id: "22",
             name: "Olalani Resort & Condotel ",
             image:
-            "https://cf.bstatic.com/xdata/images/hotel/max1280x900/244257685.jpg?k=70dc1dfb4f8f5abde720afc61fcc757d76567f4a293c486206de5fc81119686c&o=&hp=1",
+              "https://cf.bstatic.com/xdata/images/hotel/max1280x900/244257685.jpg?k=70dc1dfb4f8f5abde720afc61fcc757d76567f4a293c486206de5fc81119686c&o=&hp=1",
             rating: 4.5,
-            address:
-              "Khuê Mỹ,Ngũ Hành Sơn, Đà Nẵng, Việt Nam",
+            address: "Khuê Mỹ,Ngũ Hành Sơn, Đà Nẵng, Việt Nam",
             oldPrice: 5200,
             newPrice: 4100,
             latitude: "16.03498676573128",
@@ -675,6 +669,7 @@ const SearchScreen = () => {
         ],
       },
     ];
+  
   return (
     <SafeAreaView>
         <View style={{marginTop:10,padding:10,flexDirection:'row',justifyContent:'space-between',borderRadius:15,borderColor:'#15ACBB',borderWidth:3}}>

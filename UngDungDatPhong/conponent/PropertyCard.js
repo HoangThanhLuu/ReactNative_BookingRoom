@@ -16,15 +16,16 @@ const PropertyCard = ({
   const navigation = useNavigation();
   return (
     <View>
+      
       <Pressable
         onPress={() =>
-          navigation.navigate("PropertyInfoScreen", {
+          navigation.navigate("ProperInfoScreen", {
             name: property.name,
             property: property.rating,
             oldPrice: property.oldPrice,
             newPrice: property.newPrice,
             photos: property.photos,
-            rooms: property.rooms,
+            availableRooms: property.rooms,
             adults: adults,
             children: children,
             rooms: rooms,

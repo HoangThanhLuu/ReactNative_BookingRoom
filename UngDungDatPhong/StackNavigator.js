@@ -14,7 +14,11 @@ import { Ionicons } from '@expo/vector-icons';
 import SearchScreen from "./screens/SearchScreen";
 import PlaceScreen from "./screens/PlaceScreen";
 import MapScreen from "./screens/MapScreen";
-import PropertyInfoScreen from "./screens/PropertyInfoScreen";
+
+import ProperInfoScreen from "./screens/ProperInfoScreen";
+import RoomScreen from "./screens/RoomScreen";
+import UserScreen from "./screens/UserScreen";
+import ConfirmationScree from "./screens/ConfirmationScree";
 
 const StackNavigator = () => {
   const bottom = createBottomTabNavigator();
@@ -96,7 +100,16 @@ const StackNavigator = () => {
         <Stack.Screen name="SearchScreen" component={SearchScreen} options={{headerShown:false}} />
         <Stack.Screen name="PlaceScreen" component={PlaceScreen} options={{headerShown:false}} />
         <Stack.Screen name="MapScreen" component={MapScreen} options={{headerShown:false}}/>
-        <Stack.Screen name="PropertyInfoScreen" component={PropertyInfoScreen} options={{headerShown:false}}/>
+        <Stack.Screen name="ProperInfoScreen" component={ProperInfoScreen} options={{headerShown:false}}/>
+        <Stack.Screen name="RoomScreen" component={RoomScreen} />
+        <Stack.Screen name="UserScreen" component={UserScreen} options={{headerShown:false,headerTitle:''}} />
+        <Stack.Screen name="ConfirmationScree" component={ConfirmationScree} options={{headerShown:false}} />
+
+      
+
+      
+      
+      
       </Stack.Navigator>
     </NavigationContainer>
   );
