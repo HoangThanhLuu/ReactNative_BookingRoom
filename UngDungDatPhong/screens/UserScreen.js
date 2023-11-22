@@ -36,6 +36,10 @@ const UserScreen = ({ navigation, route }) => {
             rating: route.params.rating,
             startDate: route.params.startDate,
             endDate: route.params.endDate,
+            firstName:firstName,
+            lastName:lastName,
+            email:email,
+            phoneNo:phoneNo
 
         })
     
