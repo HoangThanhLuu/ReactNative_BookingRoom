@@ -8,10 +8,10 @@ import Store from "./Store";
 export default function App() {
   return (
     <>
-      {/* <Provider store={Store}> */}
+      <Provider store={Store}> 
         <StackNavigator />
         <ModalPortal />
-      {/* </Provider> */}
+       </Provider> 
     </>
   );
 }
