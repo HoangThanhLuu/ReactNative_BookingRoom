@@ -1,9 +1,9 @@
 import { Pressable, StyleSheet, Text, View } from "react-native";
-import React, { useRef,useEffect } from "react";
+import React, { useRef,useEffect, useLayoutEffect } from "react";
 import { useRoute } from "@react-navigation/native";
 import MapView, { Marker } from "react-native-maps";
 //bản đồ mapppp
-const MapScreen = ({route}) => {
+const MapScreen = ({route,navigation}) => {
     const {searchResults} = route?.params;
     const mapView = useRef(null);
     console.log(searchResults);
@@ -25,8 +25,26 @@ const MapScreen = ({route}) => {
         }
     });
   },[])
+  useLayoutEffect(() => {
+    navigation.setOptions({
+      headerShown: true,
+      title: "",
+      headerTitleStyle: {
+        fontSize: 20,
+        fontWeight: "bold",
+        color: "#818383",
+      },
+      headerStyle: {
+        backgroundColor: "white",
+        height: 110,
+        borderBottomColor: "transparent",
+        shadowColor: "transparent",
+      },
+    });
+  }, []);
   return (
     <View>
+     
         <MapView ref={mapView} style={{ width: "100%", height: "100%" }}>
         {route.params.searchResults.map((item) =>
           item.properties.map((property) => (
@@ -39,6 +57,7 @@ const MapScreen = ({route}) => {
               }}
             >
               <Pressable
+             
                 style={{
                   backgroundColor: "#003580",
                   paddingHorizontal: 7,

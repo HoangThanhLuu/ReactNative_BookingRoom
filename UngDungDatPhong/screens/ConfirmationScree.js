@@ -58,10 +58,10 @@ const handledBooking =() => {
                 marginTop: 7,
               }}
             >
-                <Text>{route.params.rating}</Text>
+                <Text style={{fontSize:18,fontWeight:'800',color:'black'}}>{route.params.rating}</Text>
               <Ionicons name="star-half" size={27} color="blue" />
               
-              
+            
                 <Text
                   style={{
                     textAlign: "center",

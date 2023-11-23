@@ -53,7 +53,7 @@ console.log(route.params);
               color:'#C8C8C8'
             }}
           >
-            Price for 1 Night and {route.params.adults} adults
+           Giá cho một đêm và {route.params.adults} người lớn
           </Text>
         <View style={{ flexDirection: "row",marginLeft:10 }}>
             
