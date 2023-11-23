@@ -18,7 +18,9 @@ const PlaceScreen = ({ route, navigation }) => {
       placeImage:
         "https://media.istockphoto.com/id/1324017792/vi/anh/%E1%BA%A3nh-ch%E1%BB%A5p-t%E1%BB%AB-tr%C3%AAn-cao-tuy%E1%BB%87t-%C4%91%E1%BA%B9p-c%E1%BB%A7a-s%C3%A0i-g%C3%B2n-th%C3%A0nh-ph%E1%BB%91-h%E1%BB%93-ch%C3%AD-minh-v%E1%BB%81-%C4%91%C3%AAm.webp?b=1&s=612x612&w=0&k=20&c=0txjn5ZfmIEhYdZsCiB8I0pYVfnRjNhUhlxFjl5vvEo=",
       shortDescription: "Thành phố Hồ Chí Minh,Việt Nam",
+
       properties: [
+        //propertitype 1:
         {
           id: "10",
           name: "Sen Boutique House",
@@ -87,30 +89,28 @@ const PlaceScreen = ({ route, navigation }) => {
           rooms: [
             {
               id: "202",
-              name: "King Room with Balcony",
+              name: "Có bàn bóng bàn và lan can",
               size: 419,
-              refundable: "refundable",
+
               payment: "Pay at the property",
-              bed: "1 queen bed",
             },
             {
               id: "203",
-              name: "Deluxe king Room",
+              name: "Dịch vụ hồ bới và quầy bar",
               size: 440,
               refundable: "non refundable",
               payment: "Pay in advance",
-              bed: "1 queen bed",
             },
             {
               id: "205",
-              name: "Two bedroom with balcony",
+              name: "Phòng có giường và bồn tắm",
               size: 490,
-              refundable: "refundable",
+
               payment: "Pay at the property",
-              bed: "1 queen bed",
             },
           ],
         },
+        //propertitype 2:
         {
           id: "11",
           image:
@@ -179,9 +179,8 @@ const PlaceScreen = ({ route, navigation }) => {
               id: "202",
               name: "Phòng có giường và có ban công",
               size: 419,
-              refundable: "refundable",
+
               payment: "Pay at the property",
-              bed: "1 queen bed",
             },
             {
               id: "203",
@@ -189,18 +188,17 @@ const PlaceScreen = ({ route, navigation }) => {
               size: 440,
               refundable: "non refundable",
               payment: "Pay in advance",
-              bed: "1 queen bed",
             },
             {
               id: "205",
               name: "Phòng có giường và có bồn tắm",
               size: 490,
-              refundable: "refundable",
+
               payment: "Pay at the property",
-              bed: "1 queen bed",
             },
           ],
         },
+        //propertitype 3:
         {
           id: "12",
           name: "Victory Hotel SaiGon",
@@ -263,27 +261,23 @@ const PlaceScreen = ({ route, navigation }) => {
           rooms: [
             {
               id: "202",
-              name: "King Room with Balcony",
+              name: "Phòng có giường và có ban công",
               size: 419,
-              refundable: "refundable",
-              payment: "Pay at the property",
-              bed: "1 queen bed",
+
+              payment: "thanh toán tại chỗ",
             },
             {
               id: "203",
-              name: "Deluxe king Room",
+              name: "Phòng có giường và bồn tắm",
               size: 440,
               refundable: "non refundable",
-              payment: "Pay in advance",
-              bed: "1 queen bed",
+              payment: "Thanh toán qua áp",
             },
             {
               id: "205",
-              name: "Deluxe king Room",
+              name: "Phòng có bàn bida nhỏ",
               size: 490,
-              refundable: "refundable",
-              payment: "Pay at the property",
-              bed: "1 queen bed",
+              payment: "thanh toán tại chỗ nghĩ",
             },
           ],
         },
@@ -363,27 +357,24 @@ const PlaceScreen = ({ route, navigation }) => {
           rooms: [
             {
               id: "202",
-              name: "King Room with Balcony",
+              name: "Phòng có giường và bồi tắm",
               size: 419,
-              refundable: "refundable",
-              payment: "Pay at the property",
-              bed: "1 queen bed",
+
+              payment: "thanh toán tại chỗ nghĩ",
             },
             {
               id: "203",
-              name: "Deluxe king Room",
+              name: "Có chỗ dữ xe free và lan can",
               size: 440,
               refundable: "non refundable",
-              payment: "Pay in advance",
-              bed: "1 queen bed",
+              payment: "thanh toán qua app",
             },
             {
               id: "205",
-              name: "Deluxe king Room",
+              name: "Giặt ủi quần áo",
               size: 490,
-              refundable: "refundable",
-              payment: "Pay at the property",
-              bed: "1 queen bed",
+
+              payment: "thanh toán tại chỗ nghĩ",
             },
           ],
         },
@@ -453,27 +444,24 @@ const PlaceScreen = ({ route, navigation }) => {
           rooms: [
             {
               id: "202",
-              name: "Lotte Hotel Hanoi",
+              name: "Phòng có giường và bồn tắm",
               size: 419,
-              refundable: "refundable",
-              payment: "Pay at the property",
-              bed: "1 queen bed",
+
+              payment: "thanh toán tại chỗ nghĩ",
             },
             {
               id: "203",
-              name: "Deluxe Hanoi",
+              name: "Dịch vụ hồ bới và quầy bar",
               size: 440,
               refundable: "non refundable",
-              payment: "Pay in advance",
-              bed: "1 queen bed",
+              payment: "thanh toán nâng cao",
             },
             {
               id: "205",
-              name: "Deluxe king Room",
+              name: "Có bàn bóng bàn và lan can",
               size: 490,
-              refundable: "refundable",
-              payment: "Pay at the property",
-              bed: "1 queen bed",
+
+              payment: "thanh toán qua ứng dụng",
             },
           ],
         },
@@ -552,27 +540,24 @@ const PlaceScreen = ({ route, navigation }) => {
           rooms: [
             {
               id: "202",
-              name: "King Room with Balcony",
+              name: "Có bàn bóng bàn và lan can",
               size: 419,
-              refundable: "refundable",
-              payment: "Pay at the property",
-              bed: "1 queen bed",
+
+              payment: "Thanh toán tại chỗ",
             },
             {
               id: "203",
-              name: "Deluxe king Room",
+              name: "Dịch vụ hồ bới và quầy bar",
               size: 440,
               refundable: "non refundable",
-              payment: "Pay in advance",
-              bed: "1 queen bed",
+              payment: "thanh toán qua app",
             },
             {
               id: "205",
-              name: "Deluxe king Room",
+              name: "Phòng có giường và bồn tắm",
               size: 490,
-              refundable: "refundable",
-              payment: "Pay at the property",
-              bed: "1 queen bed",
+
+              payment: "thanh toán tại khách sạn",
             },
           ],
         },
@@ -642,27 +627,24 @@ const PlaceScreen = ({ route, navigation }) => {
           rooms: [
             {
               id: "202",
-              name: "King Room with Balcony",
+              name: "Có bàn bóng bàn và lan can",
               size: 419,
-              refundable: "refundable",
-              payment: "Pay at the property",
-              bed: "1 queen bed",
+
+              payment: "thanh toán tại khách sạn",
             },
             {
               id: "203",
-              name: "Deluxe king Room",
+              name: "Dịch vụ hồ bới và quầy bar",
               size: 440,
-              refundable: "non refundable",
+             
               payment: "Pay in advance",
-              bed: "1 queen bed",
             },
             {
               id: "205",
-              name: "Deluxe king Room",
+              name: "Phòng có giường và bồn tắm",
               size: 490,
-              refundable: "refundable",
-              payment: "Pay at the property",
-              bed: "1 queen bed",
+
+              payment: "thanh toán tại quầy",
             },
           ],
         },

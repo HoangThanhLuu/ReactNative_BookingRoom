@@ -159,7 +159,7 @@ const UserScreen = ({ navigation, route }) => {
             </Text>
           </View>
           <Text>
-          Bạn đã tiết kiệm được {route.params.oldPrice - route.params.newPrice}
+          Bạn đã tiết kiệm được {route.params.oldPrice - route.params.newPrice} VND
           </Text>
         </View>
         <Pressable

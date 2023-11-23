@@ -8,7 +8,7 @@ import Amenities from "../conponent/Amenities";
 //hiên thị các thông tin khi người dùng lựa chọn các phòng có cả giá tiền ,đánh giá
 const ProperInfoScreen = ({ navigation, route }) => {
 console.log(route.params);
-
+  //tính toán giá giá theo phần trăm
     const difference = route.params.oldPrice - route.params.newPrice;
     const offerPrice = (Math.abs(difference) / route.params.oldPrice) * 100;
   return (
@@ -66,6 +66,7 @@ console.log(route.params);
               marginRight:20
             }}
           >
+            {/* giá cũ * với người lớn */}
             {route.params.oldPrice * route.params.adults}
           </Text>
           <Text
@@ -74,7 +75,7 @@ console.log(route.params);
               marginTop: 10,
             }}
           >
-            {route.params.oldPrice * route.params.adults}
+            {route.params.newPrice * route.params.adults}
           </Text>
           
         </View>

@@ -75,11 +75,11 @@ const BookingScreen = ({navigation,route}) => {
 
       <View style={{flexDirection:'row',justifyContent:'space-around',marginVertical:10}}>
         <View style={{flexDirection:'column'}}>
-        <Text style={{marginLeft:20,fontSize:17,color:'#139AA5',fontWeight:'800'}}>Ra</Text>
+        <Text style={{marginLeft:20,fontSize:17,color:'#139AA5',fontWeight:'800'}}>Vào</Text>
           <Text style={{color:'#139AA5'}}>{item.startDate}</Text>
         </View>
         <View style={{flexDirection:'column'}}>
-          <Text style={{marginLeft:20,fontSize:17,color:'#139AA5',fontWeight:'800'}}>Vào</Text>
+          <Text style={{marginLeft:20,fontSize:17,color:'#139AA5',fontWeight:'800'}}>Ra</Text>
           <Text style={{color:'#139AA5'}}>{item.endDate}</Text>
         </View>
       </View>
