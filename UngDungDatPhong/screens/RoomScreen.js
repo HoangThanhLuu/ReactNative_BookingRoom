@@ -100,7 +100,7 @@ const RoomScreen = ({ route, navigation }) => {
                   flexDirection: "row",
                   alignItems: "center",
                   borderRadius: 10,
-                  marginTop:10
+                  marginTop: 10,
                 }}
               >
                 <Text
@@ -115,11 +115,13 @@ const RoomScreen = ({ route, navigation }) => {
                 >
                   Lựa chọn
                 </Text>
-                
-                <Ionicons //dùng để khi người dùng nhấp vào icon thì nó sẽ tắt cái icon đi
+
+                {/* //dùng để khi người dùng nhấp vào icon thì nó sẽ tắt cái icon đi */}
+
+                <AntDesign
                   onPress={() => setSelected([])}
-                  name="shield-checkmark-outline"
-                  size={26}
+                  name="checkcircleo"
+                  size={30}
                   color="red"
                 />
               </Pressable>
@@ -173,12 +175,18 @@ const RoomScreen = ({ route, navigation }) => {
             marginBottom: 30,
             borderRadius: 3,
             marginHorizontal: 15,
-            height:40,
-            borderRadius:15
+            height: 40,
+            borderRadius: 15,
           }}
         >
           <Text
-            style={{ textAlign: "center", color: "white", fontWeight: "bold",fontSize:20,fontWeight:'500' }}
+            style={{
+              textAlign: "center",
+              color: "white",
+              fontWeight: "bold",
+              fontSize: 20,
+              fontWeight: "500",
+            }}
           >
             Lưu Trữ
           </Text>

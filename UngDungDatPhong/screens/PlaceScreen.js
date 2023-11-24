@@ -7,7 +7,7 @@ import { FontAwesome5 } from "@expo/vector-icons";
 import PropertyCard from "../conponent/PropertyCard";
 
 const PlaceScreen = ({ route, navigation }) => {
-  //dùng để cho Map(khi router truyền qua mà có place thì cho phép tìm địa điểm )
+  
 
   //dữ liệu hình
   const data = [

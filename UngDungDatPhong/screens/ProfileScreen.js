@@ -1,7 +1,8 @@
-import { View, Text, Pressable } from "react-native";
+import { View, Text, Pressable,ScrollView } from "react-native";
 import React, { useLayoutEffect } from "react";
 import { useSelector } from "react-redux";
 import { FontAwesome } from "@expo/vector-icons";
+ 
 
 const ProfileScreen = ({ navigation, route }) => {
   //useSelector giúp truy cập trực tiếp vào redux store
@@ -25,6 +26,7 @@ const ProfileScreen = ({ navigation, route }) => {
   }, []);
   return (
     <View style={{ flex: 1, width: "100%", height: "100%" }}>
+      <ScrollView>
       {profile.length > 0 &&
         profile.map((item, index) => (
           <View key={index} style={{ alignItems: "center" }}>
@@ -105,7 +107,7 @@ const ProfileScreen = ({ navigation, route }) => {
           </View>
         ))}
 
-      <Pressable
+      {/* <Pressable
       onPress={() => navigation.navigate('HomeScreen')}
         style={{
           width: "90%",
@@ -122,7 +124,8 @@ const ProfileScreen = ({ navigation, route }) => {
         }}
       >
         <Text style={{fontSize:20,color:'#309BD2',fontWeight:'700'}}>Thoát</Text>
-      </Pressable>
+      </Pressable> */}
+      </ScrollView>
     </View>
   );
 };
